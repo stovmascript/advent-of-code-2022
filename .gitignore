@@ -9,5 +9,8 @@ pom.xml.asc
 /.lein-*
 /.nrepl-port
 /.prepl-port
-.hgignore
-.hg/
+
+# custom
+.calva
+.clj-kondo
+.lsp
