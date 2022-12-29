@@ -1,6 +1,6 @@
-(ns advent-of-code-2022.core-test
+(ns advent-of-code-2022.day-02-test
   (:require [clojure.test :refer :all]
-            [advent-of-code-2022.core :refer :all]))
+            [advent-of-code-2022.day-02 :refer :all]))
 
 (deftest test-score
   (is
