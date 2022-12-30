@@ -21,5 +21,5 @@
 
 (apply max calories-by-elf)
 
-;; Day 1: Calorie Counting, part 2
+;; Day 1: Calorie Counting; Part Two
 (reduce + (take-last 3 (sort calories-by-elf)))

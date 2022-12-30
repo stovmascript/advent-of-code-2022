@@ -31,7 +31,7 @@
 
 (score)
 
-;; Day 2: Rock Paper Scissors, part 2
+;; Day 2: Rock Paper Scissors; Part Two
 (def shape-to-outcome
   {"A" 1 "B" 2 "C" 3
    "X" 0 ; loss
