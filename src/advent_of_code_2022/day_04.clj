@@ -5,12 +5,10 @@
    [clojure.string :as str]))
 
 ;; Day 4: Camp Cleanup
-(def input
-  (slurp (io/resource "inputs/day_04")))
-
 (def section-sets-by-pair
   (->>
-   (str/split-lines input)
+   (slurp (io/resource "inputs/day_04"))
+   (str/split-lines)
    (map
     (fn [line]
       (let [[[p1start p1end] [p2start p2end]]
